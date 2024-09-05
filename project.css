@@ -1,0 +1,116 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background:url('https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg') no-repeat center center/cover;
+}
+h1{
+    color: #0a0a0a;
+}
+
+
+
+nav{
+    background-color: rgb(22, 221, 211);
+    color:#0f0f0f;
+}
+ul{
+    
+    
+    padding-top: 50px;
+    margin: 0;
+    margin-left: 35%;
+    height: 30px;
+    
+    padding: 20px;
+    padding-top: 50px;
+    
+
+}
+li{
+    display:inline;
+     color: white;
+    padding: 5px;
+    cursor: pointer;}
+    
+ul li a {
+    text-decoration: none;
+    color: white; 
+    background-color: #007bff; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    font-weight: bold;
+}
+ul li a:hover {
+    background-color: #0056b3; 
+}
+
+
+    
+
+li,h1,ul{
+    display:inline;
+    color: rgb(15, 15, 15);
+    padding: 1%;}
+header h1 {
+    margin: 0;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content: center;
+}
+
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    gap: 10rem;
+    margin-top: 50px;
+    
+    
+}
+
+.project-title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.project-description {
+    color: #666;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    background: #0056b3;
+}
+
+
